@@ -15,15 +15,22 @@ This Discord bot retrieves and processes data from GOAT, an online store special
    - Navigate to the Discord Developer Portal ([Discord Developer Portal](https://discord.com/developers/applications))
    - Create a new application
    - Navigate to the "Bot" tab and click "Add Bot"
-   - Copy the generated token and paste it into your `.env` file as `TOKEN`
+   - Copy the generated token and paste it into your `.env` file as `DISCORD_TOKEN`
 
 ### 3. Enable Message Intents:
    - In the Discord Developer Portal, go to the "Bot" tab of your application
    - Enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT" under the "Privileged Gateway Intents" section
 
+### 4. Adjust File References:
+   - Ensure that your main Python file is named `goat_bot.py` and contains the bot logic.
+   - If your bot logic is split into multiple files, ensure they are correctly imported and referenced in `discord_bot.py`.
+
+### 5. Run the Bot:
+   - Run your bot script by executing `discord_bot.py`.
+   - Your bot should now be online and responding to commands prefixed with `!goat`.
+
 ### Note:
-- Ensure that you replace `goat_bot` with the appropriate module containing your Discord bot's code.
-- Remember to handle environment variables securely.
+- Make sure to handle environment variables securely.
 - You may need to adjust permissions and roles within your Discord server for the bot to function correctly.
 
 ## Demonstration 
