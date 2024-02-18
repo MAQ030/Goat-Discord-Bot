@@ -32,6 +32,7 @@ This Discord bot retrieves and processes data from GOAT, an online store special
 ### Note:
 - Make sure to handle environment variables securely.
 - You may need to adjust permissions and roles within your Discord server for the bot to function correctly.
+- im sahajKAT
 
 ## Demonstration 
 
