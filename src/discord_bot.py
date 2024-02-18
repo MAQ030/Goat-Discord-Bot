@@ -1,4 +1,4 @@
-from goat_bot import client, TOKEN, handle_hello_message, send_message
+from message_handling import client, TOKEN, handle_hello_message, send_message
 from discord import Message
 
 # Event handler for when the bot is ready
