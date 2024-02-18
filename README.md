@@ -34,3 +34,5 @@ This Discord bot retrieves and processes data from GOAT, an online store special
 - You may need to adjust permissions and roles within your Discord server for the bot to function correctly.
 
 ## Demonstration 
+
+
