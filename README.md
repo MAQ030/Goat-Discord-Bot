@@ -40,5 +40,6 @@ https://github.com/MAQ030/Goat-Discord-Bot/assets/156931518/33f126a2-3838-4e49-b
 
 https://github.com/MAQ030/Goat-Discord-Bot/assets/156931518/189b30e1-98af-4d4c-9d95-2a6e7ddd8155
 
+## Developed By
 
-
+[MAQ030](https://github.com/MAQ030) and [SahajKAT](https://github.com/SahajKAT)
