@@ -22,9 +22,9 @@ This Discord bot retrieves and processes data from GOAT, an online store special
    - Enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT" under the "Privileged Gateway Intents" section
 
 ### 4. Adjust File References:
-   - Ensure that your main Python file is named `goat_bot.py` and contains the bot logic.
-   - If your bot logic is split into multiple files, ensure they are correctly imported and referenced in `discord_bot.py`.
-
+   - The file `discord_bot.py` contains the core functionality of the Discord bot. It interacts with Discord servers, handles messages, and processes commands related to querying GOAT's database.
+   - The file `message_handling.py` is for handling messages received by the bot, including searching for products on the GOAT website and formatting responses with embeds.
+   
 ### 5. Run the Bot:
    - Run your bot script by executing `discord_bot.py`.
    - Your bot should now be online and responding to commands prefixed with `!goat`.
@@ -32,6 +32,7 @@ This Discord bot retrieves and processes data from GOAT, an online store special
 ### Note:
 - Make sure to handle environment variables securely.
 - You may need to adjust permissions and roles within your Discord server for the bot to function correctly.
+- Make sure to set up your `.env` file with your Discord token before running the bot script.
   
 ## Demonstration 
 
